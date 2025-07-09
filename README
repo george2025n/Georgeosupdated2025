@@ -1,0 +1,37 @@
+# GeorgeOS v1.0 🐧⚙️
+
+Welcome to **GeorgeOS**, a terminal-based, lightweight OS environment built to run inside Termux.  
+Powered by Debian, written by a solo dev in Bosnia with no support—just pure brain, grind, and code.  
+This ain't just some bash script. This is a full-on, feature-packed CLI interface designed to bring control, utility, and style to your terminal.
+
+> 🛠️ **Made by George | 2025**  
+> 💻 Pure bash | Termux + Debian | Zero dependencies
+
+---
+
+## 🚀 Features
+
+- 🕓 **Clock** – View current system time
+- 💾 **Disk Usage** – See how much space you're using
+- 🧠 **System Info** – Get detailed specs of your environment
+- 🧮 **Calculator** – Terminal-based calculator
+- 📈 **System Monitor** – Track CPU, RAM, and more
+- 📁 **File Manager** – Navigate your files like a pro
+- ☁️ **Weather App** – Get weather updates from your terminal
+- 🔄 **Clean UI Menu** – Intuitive and responsive CLI interface
+
+---
+
+## 📸 Preview
+---
+
+## ⚙️ How to Install
+
+> ⚠️ Prerequisite: Must be inside Termux and running Debian (or proot-distro debian)
+
+```bash
+pkg update && pkg install git -y
+git clone https://github.com/george2025n/Georgeosupdated2025.git
+cd Georgeosupdated2025
+chmod +x georgeos
+./georgeos
